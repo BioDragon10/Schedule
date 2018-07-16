@@ -2,6 +2,9 @@
   "name": "react-redux",
   "version": "1.0.0",
   "description": "Basic skeleton codebase for React/Redux applications.",
+  "engines": {
+    "node": "^10.3.0"
+  },
   "scripts": {
     "postinstall": "cp env.example.js env.js",
     "start": "webpack-dev-server --config webpack/dev.config.js --watch",
@@ -56,6 +59,7 @@
     "extract-text-webpack-plugin": "^2.1.2",
     "file-loader": "^0.11.2",
     "html-webpack-plugin": "^2.29.0",
+    "node": "^10.6.0",
     "node-sass": "^4.5.3",
     "postcss-loader": "^2.0.6",
     "prop-types": "^15.5.10",
