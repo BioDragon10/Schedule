@@ -1,3 +1,6 @@
+//Bottega 100% 
+//Week five, 3 projects Grad
+
 import React, { Component } from 'react';
 import { connect } from 'react-redux';
 
